@@ -1,0 +1,30 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "edges": [
+                {
+                    "destination": "2",
+                    "color": "RED"
+                },
+                {
+                    "destination": "3",
+                    "color": "BLUE"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "edges": [
+                {
+                    "destination": "3",
+                    "color": "RED"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "edges": []
+        }
+    ]
+}
